@@ -40,9 +40,57 @@ fog
 DATA VISUALISATION:-
 For data visualisation we use MATPLOTLIB & SEABORN libraries.
 
-MATPLOTLIB:-
-Matplotlib is an amazing visualization library in Python for 2D plots of arrays.
-Matplotlib consists of several plots like line, bar, scatter, histogram etc.
-SEABORN:-
+1.MATPLOTLIB:-
+
+•Matplotlib is an amazing visualization library in Python for 2D plots of arrays.
+•Matplotlib consists of several plots like line, bar, scatter, histogram etc.
+
+2.SEABORN:-
 Seaborn is an amazing visualization library for statistical graphics plotting in Python.
-It provides beautiful
+It provides beautiful default styles and color palettes to make statistical plots more attractive.
+
+
+5.Finding values of outliers(IQR method)
+
+Checking for the presence of outliers in numeric cols Outlier is an observation that appears far away and diverges from an overall pattern in a sample.
+
+Outliers in input data can skew and mislead the training process of machine learning algorithms resulting in longer training times, less accurate models and ultimately poorer results.
+
+6.Dealing this problem with Seven machine learning models.(Classification)
+
+   a.LogisticRegression
+
+   b.KNeighbors
+   
+   c.SVC(Support Vector Classification)
+   
+   d.Gaussian Naive Bayes (GaussianNB)
+   
+   e.RandomForest
+   
+   f.SGD(stochastic gradient descent)
+   
+   g.Gradient Boosting
+
+7.We have predicted the Weather using Seven different ML model algorithms.
+
+The percentage of:-
+
+•LogisticRegression= 78.42%
+
+•KNeighbors= 73.22%
+
+•SVC(Support Vector Classification)= 78.14%
+
+•Gaussian Naive Bayes (GaussianNB)= 83.16%
+
+•RandomForest= 78.42%
+
+•SGD(stochastic gradient descent)= 68.85%
+
+•Gradient Boosting= 82.24%
+
+Conclusion:-
+- Out of seven machine learning algorithms we applied, 
+- We conclude that Gaussian NB classifier performs the best on this dataset with 83.61% Accuracy
+
